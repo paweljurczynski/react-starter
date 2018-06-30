@@ -22,7 +22,7 @@ module.exports = {
     },
     mode: env,
     resolve: {
-        extensions: [ '.ts', '.tsx', '.js', 'json' ],
+        extensions: [ '.ts', '.tsx', '.js', '.json', '.css' ],
         modules: [
             path.resolve(__dirname, './src'),
             path.resolve(__dirname, './node_modules')
@@ -38,6 +38,14 @@ module.exports = {
                 ],
                 use: [
                     { loader: 'awesome-typescript-loader' }
+                ]
+            },
+            {
+                test: /\.css$/,
+                use: [
+                    { loader: 'style-loader' },
+                    { loader: 'css-loader', options: { modules: true } },
+                    { loader: 'postcss-loader' }
                 ]
             }
         ]
