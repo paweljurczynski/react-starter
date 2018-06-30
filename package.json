@@ -1,0 +1,37 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --colors",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paweljurczynski/react-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paweljurczynski/react-starter/issues"
+  },
+  "homepage": "https://github.com/paweljurczynski/react-starter#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.1",
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "awesome-typescript-loader": "^5.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "script-ext-html-webpack-plugin": "^2.0.1",
+    "typescript": "^2.9.2",
+    "webpack": "^4.14.0",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
