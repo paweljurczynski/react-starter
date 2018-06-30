@@ -26,3 +26,9 @@ To build a project type in command line
 ```
 yarn build
 ```
+
+## How to run tests?
+To run tests type in command line
+```
+yarn tests
+```
