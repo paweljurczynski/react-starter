@@ -1,0 +1,19 @@
+{
+  "transform": {
+    "^.+\\.(ts|tsx)?$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "^.+\\.css?$": "identity-obj-proxy"
+  },
+  "testMatch": ["<rootDir>/src/**/*.spec.(ts|tsx)"],
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json",
+    "node",
+    "css"
+  ],
+  "setupTestFrameworkScriptFile": "<rootDir>/test.setup.js"
+}
