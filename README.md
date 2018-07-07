@@ -32,3 +32,9 @@ To run tests type in command line
 ```
 yarn tests
 ```
+
+##TODO
+
+1. Caching data
+2. Translations
+3. Handle errors

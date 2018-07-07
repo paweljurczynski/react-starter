@@ -6,9 +6,9 @@ import thunk from 'redux-thunk';
 import { App } from "./pages/App/App";
 import reducers from './reducers'
 import './global.css';
-import { State } from "./models/State";
+import { AppState } from "./models/State";
 
 const reduxTools = window['__REDUX_DEVTOOLS_EXTENSION__'];
-const store: Store<State>  = createStore(reducers, reduxTools ? reduxTools() : {}, applyMiddleware(thunk));
+const store: Store<AppState>  = createStore(reducers, reduxTools ? reduxTools() : {}, applyMiddleware(thunk));
 
 render(<App store={store}/>, document.getElementById('root'));

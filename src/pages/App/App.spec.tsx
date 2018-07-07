@@ -1,10 +1,10 @@
 import React from 'react';
 import { Store } from "redux";
-import { State } from "../../models/State";
+import { AppState } from "../../models/State";
 import { App } from './App';
 import { shallow } from "enzyme";
 
-const AppStore: Store<State> = {
+const AppStore: Store<AppState> = {
     getState: jest.fn(),
     dispatch: jest.fn(),
     replaceReducer: jest.fn(),
