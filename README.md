@@ -30,5 +30,12 @@ yarn build
 ## How to run tests?
 To run tests type in command line
 ```
-yarn tests
+yarn test
 ```
+
+##TODO
+
+1. Caching data
+2. Translations
+3. Handle errors
+4. Write more tests

@@ -12,6 +12,7 @@
     "strictNullChecks": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "lib": ["es2017", "dom"]
   },
   "include": [
     "./src/**/*"

@@ -1,0 +1,18 @@
+@value fade-in from '../../partials.css';
+
+.owner__avatar {
+  composes: fade-in;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+
+  i {
+    color: goldenrod;
+    margin-right: 3px;
+  }
+}

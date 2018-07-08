@@ -1,0 +1,11 @@
+@value fade-in from '../../partials.css';
+
+.repositoryTable {
+  composes: fade-in;
+}
+
+.notFound {
+  text-align: center;
+  font-weight: 300;
+}
+
