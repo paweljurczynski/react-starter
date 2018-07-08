@@ -23,7 +23,7 @@ type State = {
     loading: boolean
 }
 
-class RepositoryList extends Component<Props, State> {
+export class RepositoryList extends Component<Props, State> {
     componentDidMount() {
         this.props.fetchRepositories();
     }
